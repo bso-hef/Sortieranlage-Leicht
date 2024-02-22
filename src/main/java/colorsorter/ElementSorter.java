@@ -1,5 +1,7 @@
 package colorsorter;
 
+import colorsorter.helper.EV3Color;
+import colorsorter.helper.ElementSorterHelper;
 import lejos.hardware.*;
 import lejos.hardware.lcd.LCD;
 import lejos.hardware.motor.EV3LargeRegulatedMotor;
@@ -9,6 +11,7 @@ import lejos.hardware.port.SensorPort;
 import lejos.hardware.sensor.EV3ColorSensor;
 import lejos.hardware.sensor.EV3TouchSensor;
 import lejos.hardware.sensor.EV3UltrasonicSensor;
+import lejos.robotics.Color;
 import lejos.utility.Delay;
 
 import java.net.MalformedURLException;
